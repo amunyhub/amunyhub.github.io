@@ -1,0 +1,112 @@
+<!-- start of standard html to add to a page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<!-- name of webpage tab -->
+<section class="header">   
+<title>World Happiness</title>
+
+<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4..1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+
+</section>
+<!-- link to style sheet with css -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<!-- end of standard html to add to a page -->
+<body>
+<!-- beginning of nav bar -->
+<div class="navbar-header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">World Happiness</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparisons.html">Comparisons</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="happy_region_time.html">Happiness by Region</a>
+                    <a class="dropdown-item" href="happiness_time.html">Happiness Overtime</a>
+                    <a class="dropdown-item" href="gdp_geneorsity.html">GDP and Generosity</a>
+                    <a class="dropdown-item" href="gdp_happiness.html">GDP and Happiness</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      </nav>
+<!-- end of navigation -->
+<div class="jumbotron">
+    <h1 class="display-4">The Pursuit of Happiness</h1>
+    <p class="lead">As a part of or Project 1 project we were placed in small groups and asked to find, clean, and analyze a set of data.</p>
+    <div class="row">
+        <div class="col-md-6 description">
+          <p> The Wolrd Happiness Report is a Publication of UN Sustainable Development Solutions Network and is based on Gallup polling.
+            The goal of the report is to use happiness indicators to inform policy making decisions. The data we analyzed looks at 170 countries spanning five year period from (2015 - 2019).
+            
+            </p>
+        </div>
+        <div class="col-md-6 comparions cover-image">
+          <img src="images/combined_photo.png"alt="Cover of the 2015 and 2019 World Happiness Report Cover" width=407 height=240>
+        </div>
+      </div>  
+    <hr class="my-4">
+    <p>Get a closer look at our anaysis here. For an in-depth analysis check-out the plots tab in the navigation.</p>
+    <div class="row">
+        <div class="col">
+            <a target=_"blank" href="images/GDP_Generosity.png">
+            <img src="images/GDP_Generosity.png" targetalt="A look at GDP and Generorsity" width=400 height=220> 
+            </a>
+        </div>
+        <div class="col">
+            <a target=_"blank" href="images/GDP_happiness.png">
+                <img src="images/GDP_happiness.png" targetalt="A look at GDP and Happiness" width=400 height=220> 
+                </a>
+        </div>
+        <div class="w-100"></div>
+      <br>
+        <div class="col">
+            <a target=_"blank" href="images/happiness_vs_time.png">
+                <img src="images/happiness_vs_time.png" target alt="A look at Happiness overtime" width=400 height=220> 
+                </a>
+        </div>
+        <div class="col">
+            <a target=_"blank" href="images/happy_region_time.png">
+                <img src="images/happy_region_time.png" targetalt="A look region happiness overtime" width=400 height=220> 
+                </a>
+        </div>
+      </div> 
+</div>
+</div>  
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+crossorigin="anonymous"></script>
+
+    </body>
+
+    </html>

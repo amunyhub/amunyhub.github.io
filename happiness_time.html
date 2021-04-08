@@ -1,0 +1,83 @@
+<!-- start of standard html to add to a page -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<!-- name of webpage tab -->
+<section class="header">   
+<title>World Happiness</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</section>
+<!-- link to style sheet with css -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<!-- end of standard html to add to a page -->
+<body>
+<!-- beginning of nav bar -->
+<div class="container"> 
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Comparisons</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparisons.html">Comparisons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="happy_region_time.html">Happiness by Region</a>
+                <a class="dropdown-item" href="happiness_time.html">Happiness Overtime</a>
+                <a class="dropdown-item" href="gdp_geneorsity.html">GDP and Generosity</a>
+                <a class="dropdown-item" href="gdp_happiness.html">GDP and Happiness</a>
+            </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<!-- end of navigation -->
+<div class="jumbotron">
+    <h1 class="display-4">Region Happiness Overtime</h1>
+    
+    <div class="row">
+        <div class="col-md-12 description">
+            <a target=_"blank" href="images/happiness_vs_time.png">
+                <img src="images/happiness_vs_time.png" targetalt="Happiness Overtime" width=800 height=440> 
+                </a>
+                <br>
+                <br>
+                <p>Looking at our graph of mostly straight lines here, which are tracking regional happiness over time, you can say that there wasn’t a lot of movement in terms of regional happiness, particularly in relation to one another. The Global happiness level, the line with the circles near the middle, is almost entirely flat.
+
+
+                </p>
+        </div>
+       
+      </div> 
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+crossorigin="anonymous"></script>
+
+    </body>
+
+    </html>
+
+</body>
+
+</html>

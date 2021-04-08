@@ -1,0 +1,35 @@
+                /* Landing Page CSS */
+body {
+    background: #f1f1f1;
+  }  
+
+/* Navbar */
+   
+.navbar-brand {
+  margin-right: 20rem;
+  color: #000000;
+}
+
+
+/* data image comparisons  */
+
+.data-image {
+  padding: 5px;
+}
+  
+
+/* table */
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(160, 160, 160);
+}
